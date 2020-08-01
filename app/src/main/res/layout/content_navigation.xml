@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Navigation"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_navigation">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+      >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="What are you looking for?"
+            android:textAlignment="center"
+            android:textColor="#040303"
+            android:textSize="20sp"
+            tools:text="At Penta your helth comes first." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="581dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="339dp"
+            android:layout_height="497dp"
+            android:layout_gravity="center"
+
+            android:orientation="vertical">
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:minHeight="200dp"
+                android:onClick="movetodoc"
+                cardview:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="79dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/back1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView14"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="31dp"
+
+                            android:text="Doctor"
+                            android:textAlignment="center"
+                            android:textColor="#040303"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="215dp"
+                            android:layout_height="match_parent"
+                            android:text="meet and chat with a doctor"
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:minHeight="200dp"
+                android:onClick="movetopham"
+                cardview:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="79dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/med" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="215dp"
+                            android:layout_height="wrap_content"
+                            android:text="Pharmacy"
+                            android:textAlignment="center"
+                            android:textColor="#040303"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="43dp"
+                            android:text="Oder medicine from the nearby pharmacy"
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:minHeight="200dp"
+
+                cardview:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="79dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/siren" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="212dp"
+                            android:layout_height="wrap_content"
+                            android:text="Ambulance"
+                            android:textAlignment="center"
+                            android:textColor="#0B0B0B"
+                            android:textFontWeight="7"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Oder an ambulance "
+                            android:textAlignment="center"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="303dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:minHeight="200dp"
+                cardview:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="79dp"
+                        android:layout_height="87dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/recor2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textAlignment="center">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="213dp"
+                            android:layout_height="wrap_content"
+                            android:text="Records"
+                            android:textAlignment="center"
+                            android:textColor="#040303"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:text="Check your medical records."
+                            android:textSize="17sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/myrow"
+    android:layout_height="wrap_content"
+
+    xmlns:cardview="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        cardview:cardCornerRadius="30dp"
+        android:layout_width="337dp"
+        android:padding="20dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:minHeight="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp">
+
+                <ImageView
+                    android:id="@+id/phamimg"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvname"
+                        android:layout_width="249dp"
+                        android:layout_height="40dp"
+                        android:text="Name"
+                        android:textAlignment="center"
+                        android:textColor="@color/blue"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="73dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/ic_place" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="location"
+                            android:textColor="#37A93C"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tvlocation"
+                            android:layout_width="81dp"
+                            android:layout_height="42dp"
+                            android:text="  location"
+                            android:textColor="@color/blue"
+                            android:textSize="14sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="12dp"
+                        android:orientation="horizontal"></LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:layout_width="176dp"-->
+    <!--android:layout_height="68dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:minHeight="200dp">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="68dp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="64dp">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/phamimg1"-->
+    <!--android:layout_width="81dp"-->
+    <!--android:layout_height="match_parent"-->
+
+    <!--android:scaleType="centerCrop" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvname1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Name2"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/blue"-->
+    <!--android:textSize="26sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvlocation1"-->
+    <!--android:layout_width="65dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:text="location1"-->
+    <!--android:textColor="@color/blue"-->
+    <!--android:textSize="14sp"-->
+
+    <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+
+</androidx.cardview.widget.CardView>
